@@ -70,7 +70,7 @@ else()
   caffe_option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 endif()
 caffe_option(BUILD_python "Build Python wrapper" ON)
-set(python_version "2" CACHE STRING "Specify which Python version to use")
+set(python_version "3" CACHE STRING "Specify which Python version to use")
 caffe_option(BUILD_matlab "Build Matlab wrapper" OFF)
 caffe_option(BUILD_docs   "Build documentation" ON IF UNIX OR APPLE)
 caffe_option(BUILD_python_layer "Build the Caffe Python layer" ON)
@@ -132,7 +132,7 @@ if(DISABLE_DEVICE_HOST_UNIFIED_MEMORY)
 endif()
 
 if(UNIX OR APPLE)
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wall -std=c++11 -DCMAKE_BUILD")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC -Wall -std=c++14 -DCMAKE_BUILD")
 endif()
 
 if(DISABLE_DOUBLE_SUPPORT)
@@ -146,7 +146,7 @@ endif()
 caffe_set_caffe_link()
 
 if(USE_libstdcpp)
-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++ -std=c++11")
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++ -std=c++14")
   message("-- Warning: forcing libstdc++ (controlled by USE_libstdcpp option in cmake)")
 endif()
 
@@ -155,7 +155,14 @@ if(USE_INDEX_64)
 endif()
 
 # ---[ Warnings
-caffe_warnings_disable(CMAKE_CXX_FLAGS -Wno-sign-compare -Wno-uninitialized)
+caffe_warnings_disable(CMAKE_CXX_FLAGS  -Wno-sign-compare
+                                        -Wno-uninitialized
+                                        -Wno-delete-non-abstract-non-virtual-dtor
+                                        -Wno-reorder
+                                        -Wno-parentheses
+                                        -Wno-switch
+                                        -Wno-deprecated-declarations
+                                        -Wno-unused-variable)
 
 # ---[ Config generation
 configure_file(cmake/Templates/caffe_config.h.in "${PROJECT_BINARY_DIR}/caffe_config.h")
@@ -201,6 +208,7 @@ add_subdirectory(docs)
 add_custom_target(lint COMMAND ${CMAKE_COMMAND} -DPYTHON_EXECUTABLE=${PYTHON_EXECUTABLE} -P ${PROJECT_SOURCE_DIR}/cmake/lint.cmake)
 
 # ---[ pytest target
+#SET(BUILD_python OFF)
 if(BUILD_python)
   if(UNIX)
     set(python_executable python${python_version})
