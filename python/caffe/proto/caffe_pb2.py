@@ -5626,445 +5626,445 @@ DESCRIPTOR.message_types_by_name['MergeCropParameter'] = _MERGECROPPARAMETER
 DESCRIPTOR.enum_types_by_name['Phase'] = _PHASE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-BlobShape = _reflection.GeneratedProtocolMessageType('BlobShape', (_message.Message,), dict(
-  DESCRIPTOR = _BLOBSHAPE,
-  __module__ = 'caffe_pb2'
+BlobShape = _reflection.GeneratedProtocolMessageType('BlobShape', (_message.Message,), {
+  'DESCRIPTOR' : _BLOBSHAPE,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.BlobShape)
-  ))
+  })
 _sym_db.RegisterMessage(BlobShape)
 
-BlobProto = _reflection.GeneratedProtocolMessageType('BlobProto', (_message.Message,), dict(
-  DESCRIPTOR = _BLOBPROTO,
-  __module__ = 'caffe_pb2'
+BlobProto = _reflection.GeneratedProtocolMessageType('BlobProto', (_message.Message,), {
+  'DESCRIPTOR' : _BLOBPROTO,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.BlobProto)
-  ))
+  })
 _sym_db.RegisterMessage(BlobProto)
 
-BlobProtoVector = _reflection.GeneratedProtocolMessageType('BlobProtoVector', (_message.Message,), dict(
-  DESCRIPTOR = _BLOBPROTOVECTOR,
-  __module__ = 'caffe_pb2'
+BlobProtoVector = _reflection.GeneratedProtocolMessageType('BlobProtoVector', (_message.Message,), {
+  'DESCRIPTOR' : _BLOBPROTOVECTOR,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.BlobProtoVector)
-  ))
+  })
 _sym_db.RegisterMessage(BlobProtoVector)
 
-Datum = _reflection.GeneratedProtocolMessageType('Datum', (_message.Message,), dict(
-  DESCRIPTOR = _DATUM,
-  __module__ = 'caffe_pb2'
+Datum = _reflection.GeneratedProtocolMessageType('Datum', (_message.Message,), {
+  'DESCRIPTOR' : _DATUM,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.Datum)
-  ))
+  })
 _sym_db.RegisterMessage(Datum)
 
-FillerParameter = _reflection.GeneratedProtocolMessageType('FillerParameter', (_message.Message,), dict(
-  DESCRIPTOR = _FILLERPARAMETER,
-  __module__ = 'caffe_pb2'
+FillerParameter = _reflection.GeneratedProtocolMessageType('FillerParameter', (_message.Message,), {
+  'DESCRIPTOR' : _FILLERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.FillerParameter)
-  ))
+  })
 _sym_db.RegisterMessage(FillerParameter)
 
-NetParameter = _reflection.GeneratedProtocolMessageType('NetParameter', (_message.Message,), dict(
-  DESCRIPTOR = _NETPARAMETER,
-  __module__ = 'caffe_pb2'
+NetParameter = _reflection.GeneratedProtocolMessageType('NetParameter', (_message.Message,), {
+  'DESCRIPTOR' : _NETPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.NetParameter)
-  ))
+  })
 _sym_db.RegisterMessage(NetParameter)
 
-SolverParameter = _reflection.GeneratedProtocolMessageType('SolverParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SOLVERPARAMETER,
-  __module__ = 'caffe_pb2'
+SolverParameter = _reflection.GeneratedProtocolMessageType('SolverParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SOLVERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SolverParameter)
-  ))
+  })
 _sym_db.RegisterMessage(SolverParameter)
 
-SolverState = _reflection.GeneratedProtocolMessageType('SolverState', (_message.Message,), dict(
-  DESCRIPTOR = _SOLVERSTATE,
-  __module__ = 'caffe_pb2'
+SolverState = _reflection.GeneratedProtocolMessageType('SolverState', (_message.Message,), {
+  'DESCRIPTOR' : _SOLVERSTATE,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SolverState)
-  ))
+  })
 _sym_db.RegisterMessage(SolverState)
 
-NetState = _reflection.GeneratedProtocolMessageType('NetState', (_message.Message,), dict(
-  DESCRIPTOR = _NETSTATE,
-  __module__ = 'caffe_pb2'
+NetState = _reflection.GeneratedProtocolMessageType('NetState', (_message.Message,), {
+  'DESCRIPTOR' : _NETSTATE,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.NetState)
-  ))
+  })
 _sym_db.RegisterMessage(NetState)
 
-NetStateRule = _reflection.GeneratedProtocolMessageType('NetStateRule', (_message.Message,), dict(
-  DESCRIPTOR = _NETSTATERULE,
-  __module__ = 'caffe_pb2'
+NetStateRule = _reflection.GeneratedProtocolMessageType('NetStateRule', (_message.Message,), {
+  'DESCRIPTOR' : _NETSTATERULE,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.NetStateRule)
-  ))
+  })
 _sym_db.RegisterMessage(NetStateRule)
 
-ParamSpec = _reflection.GeneratedProtocolMessageType('ParamSpec', (_message.Message,), dict(
-  DESCRIPTOR = _PARAMSPEC,
-  __module__ = 'caffe_pb2'
+ParamSpec = _reflection.GeneratedProtocolMessageType('ParamSpec', (_message.Message,), {
+  'DESCRIPTOR' : _PARAMSPEC,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ParamSpec)
-  ))
+  })
 _sym_db.RegisterMessage(ParamSpec)
 
-LayerParameter = _reflection.GeneratedProtocolMessageType('LayerParameter', (_message.Message,), dict(
-  DESCRIPTOR = _LAYERPARAMETER,
-  __module__ = 'caffe_pb2'
+LayerParameter = _reflection.GeneratedProtocolMessageType('LayerParameter', (_message.Message,), {
+  'DESCRIPTOR' : _LAYERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.LayerParameter)
-  ))
+  })
 _sym_db.RegisterMessage(LayerParameter)
 
-TransformationParameter = _reflection.GeneratedProtocolMessageType('TransformationParameter', (_message.Message,), dict(
-  DESCRIPTOR = _TRANSFORMATIONPARAMETER,
-  __module__ = 'caffe_pb2'
+TransformationParameter = _reflection.GeneratedProtocolMessageType('TransformationParameter', (_message.Message,), {
+  'DESCRIPTOR' : _TRANSFORMATIONPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.TransformationParameter)
-  ))
+  })
 _sym_db.RegisterMessage(TransformationParameter)
 
-LossParameter = _reflection.GeneratedProtocolMessageType('LossParameter', (_message.Message,), dict(
-  DESCRIPTOR = _LOSSPARAMETER,
-  __module__ = 'caffe_pb2'
+LossParameter = _reflection.GeneratedProtocolMessageType('LossParameter', (_message.Message,), {
+  'DESCRIPTOR' : _LOSSPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.LossParameter)
-  ))
+  })
 _sym_db.RegisterMessage(LossParameter)
 
-AccuracyParameter = _reflection.GeneratedProtocolMessageType('AccuracyParameter', (_message.Message,), dict(
-  DESCRIPTOR = _ACCURACYPARAMETER,
-  __module__ = 'caffe_pb2'
+AccuracyParameter = _reflection.GeneratedProtocolMessageType('AccuracyParameter', (_message.Message,), {
+  'DESCRIPTOR' : _ACCURACYPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.AccuracyParameter)
-  ))
+  })
 _sym_db.RegisterMessage(AccuracyParameter)
 
-ArgMaxParameter = _reflection.GeneratedProtocolMessageType('ArgMaxParameter', (_message.Message,), dict(
-  DESCRIPTOR = _ARGMAXPARAMETER,
-  __module__ = 'caffe_pb2'
+ArgMaxParameter = _reflection.GeneratedProtocolMessageType('ArgMaxParameter', (_message.Message,), {
+  'DESCRIPTOR' : _ARGMAXPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ArgMaxParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ArgMaxParameter)
 
-ConcatParameter = _reflection.GeneratedProtocolMessageType('ConcatParameter', (_message.Message,), dict(
-  DESCRIPTOR = _CONCATPARAMETER,
-  __module__ = 'caffe_pb2'
+ConcatParameter = _reflection.GeneratedProtocolMessageType('ConcatParameter', (_message.Message,), {
+  'DESCRIPTOR' : _CONCATPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ConcatParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ConcatParameter)
 
-BatchNormParameter = _reflection.GeneratedProtocolMessageType('BatchNormParameter', (_message.Message,), dict(
-  DESCRIPTOR = _BATCHNORMPARAMETER,
-  __module__ = 'caffe_pb2'
+BatchNormParameter = _reflection.GeneratedProtocolMessageType('BatchNormParameter', (_message.Message,), {
+  'DESCRIPTOR' : _BATCHNORMPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.BatchNormParameter)
-  ))
+  })
 _sym_db.RegisterMessage(BatchNormParameter)
 
-BiasParameter = _reflection.GeneratedProtocolMessageType('BiasParameter', (_message.Message,), dict(
-  DESCRIPTOR = _BIASPARAMETER,
-  __module__ = 'caffe_pb2'
+BiasParameter = _reflection.GeneratedProtocolMessageType('BiasParameter', (_message.Message,), {
+  'DESCRIPTOR' : _BIASPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.BiasParameter)
-  ))
+  })
 _sym_db.RegisterMessage(BiasParameter)
 
-ContrastiveLossParameter = _reflection.GeneratedProtocolMessageType('ContrastiveLossParameter', (_message.Message,), dict(
-  DESCRIPTOR = _CONTRASTIVELOSSPARAMETER,
-  __module__ = 'caffe_pb2'
+ContrastiveLossParameter = _reflection.GeneratedProtocolMessageType('ContrastiveLossParameter', (_message.Message,), {
+  'DESCRIPTOR' : _CONTRASTIVELOSSPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ContrastiveLossParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ContrastiveLossParameter)
 
-ConvolutionParameter = _reflection.GeneratedProtocolMessageType('ConvolutionParameter', (_message.Message,), dict(
-  DESCRIPTOR = _CONVOLUTIONPARAMETER,
-  __module__ = 'caffe_pb2'
+ConvolutionParameter = _reflection.GeneratedProtocolMessageType('ConvolutionParameter', (_message.Message,), {
+  'DESCRIPTOR' : _CONVOLUTIONPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ConvolutionParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ConvolutionParameter)
 
-CropParameter = _reflection.GeneratedProtocolMessageType('CropParameter', (_message.Message,), dict(
-  DESCRIPTOR = _CROPPARAMETER,
-  __module__ = 'caffe_pb2'
+CropParameter = _reflection.GeneratedProtocolMessageType('CropParameter', (_message.Message,), {
+  'DESCRIPTOR' : _CROPPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.CropParameter)
-  ))
+  })
 _sym_db.RegisterMessage(CropParameter)
 
-DataParameter = _reflection.GeneratedProtocolMessageType('DataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _DATAPARAMETER,
-  __module__ = 'caffe_pb2'
+DataParameter = _reflection.GeneratedProtocolMessageType('DataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _DATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.DataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(DataParameter)
 
-DropoutParameter = _reflection.GeneratedProtocolMessageType('DropoutParameter', (_message.Message,), dict(
-  DESCRIPTOR = _DROPOUTPARAMETER,
-  __module__ = 'caffe_pb2'
+DropoutParameter = _reflection.GeneratedProtocolMessageType('DropoutParameter', (_message.Message,), {
+  'DESCRIPTOR' : _DROPOUTPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.DropoutParameter)
-  ))
+  })
 _sym_db.RegisterMessage(DropoutParameter)
 
-DummyDataParameter = _reflection.GeneratedProtocolMessageType('DummyDataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _DUMMYDATAPARAMETER,
-  __module__ = 'caffe_pb2'
+DummyDataParameter = _reflection.GeneratedProtocolMessageType('DummyDataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _DUMMYDATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.DummyDataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(DummyDataParameter)
 
-EltwiseParameter = _reflection.GeneratedProtocolMessageType('EltwiseParameter', (_message.Message,), dict(
-  DESCRIPTOR = _ELTWISEPARAMETER,
-  __module__ = 'caffe_pb2'
+EltwiseParameter = _reflection.GeneratedProtocolMessageType('EltwiseParameter', (_message.Message,), {
+  'DESCRIPTOR' : _ELTWISEPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.EltwiseParameter)
-  ))
+  })
 _sym_db.RegisterMessage(EltwiseParameter)
 
-ELUParameter = _reflection.GeneratedProtocolMessageType('ELUParameter', (_message.Message,), dict(
-  DESCRIPTOR = _ELUPARAMETER,
-  __module__ = 'caffe_pb2'
+ELUParameter = _reflection.GeneratedProtocolMessageType('ELUParameter', (_message.Message,), {
+  'DESCRIPTOR' : _ELUPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ELUParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ELUParameter)
 
-EmbedParameter = _reflection.GeneratedProtocolMessageType('EmbedParameter', (_message.Message,), dict(
-  DESCRIPTOR = _EMBEDPARAMETER,
-  __module__ = 'caffe_pb2'
+EmbedParameter = _reflection.GeneratedProtocolMessageType('EmbedParameter', (_message.Message,), {
+  'DESCRIPTOR' : _EMBEDPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.EmbedParameter)
-  ))
+  })
 _sym_db.RegisterMessage(EmbedParameter)
 
-ExpParameter = _reflection.GeneratedProtocolMessageType('ExpParameter', (_message.Message,), dict(
-  DESCRIPTOR = _EXPPARAMETER,
-  __module__ = 'caffe_pb2'
+ExpParameter = _reflection.GeneratedProtocolMessageType('ExpParameter', (_message.Message,), {
+  'DESCRIPTOR' : _EXPPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ExpParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ExpParameter)
 
-FlattenParameter = _reflection.GeneratedProtocolMessageType('FlattenParameter', (_message.Message,), dict(
-  DESCRIPTOR = _FLATTENPARAMETER,
-  __module__ = 'caffe_pb2'
+FlattenParameter = _reflection.GeneratedProtocolMessageType('FlattenParameter', (_message.Message,), {
+  'DESCRIPTOR' : _FLATTENPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.FlattenParameter)
-  ))
+  })
 _sym_db.RegisterMessage(FlattenParameter)
 
-HDF5DataParameter = _reflection.GeneratedProtocolMessageType('HDF5DataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _HDF5DATAPARAMETER,
-  __module__ = 'caffe_pb2'
+HDF5DataParameter = _reflection.GeneratedProtocolMessageType('HDF5DataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _HDF5DATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.HDF5DataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(HDF5DataParameter)
 
-HDF5OutputParameter = _reflection.GeneratedProtocolMessageType('HDF5OutputParameter', (_message.Message,), dict(
-  DESCRIPTOR = _HDF5OUTPUTPARAMETER,
-  __module__ = 'caffe_pb2'
+HDF5OutputParameter = _reflection.GeneratedProtocolMessageType('HDF5OutputParameter', (_message.Message,), {
+  'DESCRIPTOR' : _HDF5OUTPUTPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.HDF5OutputParameter)
-  ))
+  })
 _sym_db.RegisterMessage(HDF5OutputParameter)
 
-HingeLossParameter = _reflection.GeneratedProtocolMessageType('HingeLossParameter', (_message.Message,), dict(
-  DESCRIPTOR = _HINGELOSSPARAMETER,
-  __module__ = 'caffe_pb2'
+HingeLossParameter = _reflection.GeneratedProtocolMessageType('HingeLossParameter', (_message.Message,), {
+  'DESCRIPTOR' : _HINGELOSSPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.HingeLossParameter)
-  ))
+  })
 _sym_db.RegisterMessage(HingeLossParameter)
 
-ImageDataParameter = _reflection.GeneratedProtocolMessageType('ImageDataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _IMAGEDATAPARAMETER,
-  __module__ = 'caffe_pb2'
+ImageDataParameter = _reflection.GeneratedProtocolMessageType('ImageDataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _IMAGEDATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ImageDataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ImageDataParameter)
 
-InfogainLossParameter = _reflection.GeneratedProtocolMessageType('InfogainLossParameter', (_message.Message,), dict(
-  DESCRIPTOR = _INFOGAINLOSSPARAMETER,
-  __module__ = 'caffe_pb2'
+InfogainLossParameter = _reflection.GeneratedProtocolMessageType('InfogainLossParameter', (_message.Message,), {
+  'DESCRIPTOR' : _INFOGAINLOSSPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.InfogainLossParameter)
-  ))
+  })
 _sym_db.RegisterMessage(InfogainLossParameter)
 
-InnerProductParameter = _reflection.GeneratedProtocolMessageType('InnerProductParameter', (_message.Message,), dict(
-  DESCRIPTOR = _INNERPRODUCTPARAMETER,
-  __module__ = 'caffe_pb2'
+InnerProductParameter = _reflection.GeneratedProtocolMessageType('InnerProductParameter', (_message.Message,), {
+  'DESCRIPTOR' : _INNERPRODUCTPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.InnerProductParameter)
-  ))
+  })
 _sym_db.RegisterMessage(InnerProductParameter)
 
-InputParameter = _reflection.GeneratedProtocolMessageType('InputParameter', (_message.Message,), dict(
-  DESCRIPTOR = _INPUTPARAMETER,
-  __module__ = 'caffe_pb2'
+InputParameter = _reflection.GeneratedProtocolMessageType('InputParameter', (_message.Message,), {
+  'DESCRIPTOR' : _INPUTPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.InputParameter)
-  ))
+  })
 _sym_db.RegisterMessage(InputParameter)
 
-LogParameter = _reflection.GeneratedProtocolMessageType('LogParameter', (_message.Message,), dict(
-  DESCRIPTOR = _LOGPARAMETER,
-  __module__ = 'caffe_pb2'
+LogParameter = _reflection.GeneratedProtocolMessageType('LogParameter', (_message.Message,), {
+  'DESCRIPTOR' : _LOGPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.LogParameter)
-  ))
+  })
 _sym_db.RegisterMessage(LogParameter)
 
-LRNParameter = _reflection.GeneratedProtocolMessageType('LRNParameter', (_message.Message,), dict(
-  DESCRIPTOR = _LRNPARAMETER,
-  __module__ = 'caffe_pb2'
+LRNParameter = _reflection.GeneratedProtocolMessageType('LRNParameter', (_message.Message,), {
+  'DESCRIPTOR' : _LRNPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.LRNParameter)
-  ))
+  })
 _sym_db.RegisterMessage(LRNParameter)
 
-MemoryDataParameter = _reflection.GeneratedProtocolMessageType('MemoryDataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _MEMORYDATAPARAMETER,
-  __module__ = 'caffe_pb2'
+MemoryDataParameter = _reflection.GeneratedProtocolMessageType('MemoryDataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _MEMORYDATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.MemoryDataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(MemoryDataParameter)
 
-MVNParameter = _reflection.GeneratedProtocolMessageType('MVNParameter', (_message.Message,), dict(
-  DESCRIPTOR = _MVNPARAMETER,
-  __module__ = 'caffe_pb2'
+MVNParameter = _reflection.GeneratedProtocolMessageType('MVNParameter', (_message.Message,), {
+  'DESCRIPTOR' : _MVNPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.MVNParameter)
-  ))
+  })
 _sym_db.RegisterMessage(MVNParameter)
 
-ParameterParameter = _reflection.GeneratedProtocolMessageType('ParameterParameter', (_message.Message,), dict(
-  DESCRIPTOR = _PARAMETERPARAMETER,
-  __module__ = 'caffe_pb2'
+ParameterParameter = _reflection.GeneratedProtocolMessageType('ParameterParameter', (_message.Message,), {
+  'DESCRIPTOR' : _PARAMETERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ParameterParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ParameterParameter)
 
-PoolingParameter = _reflection.GeneratedProtocolMessageType('PoolingParameter', (_message.Message,), dict(
-  DESCRIPTOR = _POOLINGPARAMETER,
-  __module__ = 'caffe_pb2'
+PoolingParameter = _reflection.GeneratedProtocolMessageType('PoolingParameter', (_message.Message,), {
+  'DESCRIPTOR' : _POOLINGPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.PoolingParameter)
-  ))
+  })
 _sym_db.RegisterMessage(PoolingParameter)
 
-PowerParameter = _reflection.GeneratedProtocolMessageType('PowerParameter', (_message.Message,), dict(
-  DESCRIPTOR = _POWERPARAMETER,
-  __module__ = 'caffe_pb2'
+PowerParameter = _reflection.GeneratedProtocolMessageType('PowerParameter', (_message.Message,), {
+  'DESCRIPTOR' : _POWERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.PowerParameter)
-  ))
+  })
 _sym_db.RegisterMessage(PowerParameter)
 
-PythonParameter = _reflection.GeneratedProtocolMessageType('PythonParameter', (_message.Message,), dict(
-  DESCRIPTOR = _PYTHONPARAMETER,
-  __module__ = 'caffe_pb2'
+PythonParameter = _reflection.GeneratedProtocolMessageType('PythonParameter', (_message.Message,), {
+  'DESCRIPTOR' : _PYTHONPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.PythonParameter)
-  ))
+  })
 _sym_db.RegisterMessage(PythonParameter)
 
-RecurrentParameter = _reflection.GeneratedProtocolMessageType('RecurrentParameter', (_message.Message,), dict(
-  DESCRIPTOR = _RECURRENTPARAMETER,
-  __module__ = 'caffe_pb2'
+RecurrentParameter = _reflection.GeneratedProtocolMessageType('RecurrentParameter', (_message.Message,), {
+  'DESCRIPTOR' : _RECURRENTPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.RecurrentParameter)
-  ))
+  })
 _sym_db.RegisterMessage(RecurrentParameter)
 
-ReductionParameter = _reflection.GeneratedProtocolMessageType('ReductionParameter', (_message.Message,), dict(
-  DESCRIPTOR = _REDUCTIONPARAMETER,
-  __module__ = 'caffe_pb2'
+ReductionParameter = _reflection.GeneratedProtocolMessageType('ReductionParameter', (_message.Message,), {
+  'DESCRIPTOR' : _REDUCTIONPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ReductionParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ReductionParameter)
 
-ReLUParameter = _reflection.GeneratedProtocolMessageType('ReLUParameter', (_message.Message,), dict(
-  DESCRIPTOR = _RELUPARAMETER,
-  __module__ = 'caffe_pb2'
+ReLUParameter = _reflection.GeneratedProtocolMessageType('ReLUParameter', (_message.Message,), {
+  'DESCRIPTOR' : _RELUPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ReLUParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ReLUParameter)
 
-ReshapeParameter = _reflection.GeneratedProtocolMessageType('ReshapeParameter', (_message.Message,), dict(
-  DESCRIPTOR = _RESHAPEPARAMETER,
-  __module__ = 'caffe_pb2'
+ReshapeParameter = _reflection.GeneratedProtocolMessageType('ReshapeParameter', (_message.Message,), {
+  'DESCRIPTOR' : _RESHAPEPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ReshapeParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ReshapeParameter)
 
-ScaleParameter = _reflection.GeneratedProtocolMessageType('ScaleParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SCALEPARAMETER,
-  __module__ = 'caffe_pb2'
+ScaleParameter = _reflection.GeneratedProtocolMessageType('ScaleParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SCALEPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ScaleParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ScaleParameter)
 
-SigmoidParameter = _reflection.GeneratedProtocolMessageType('SigmoidParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SIGMOIDPARAMETER,
-  __module__ = 'caffe_pb2'
+SigmoidParameter = _reflection.GeneratedProtocolMessageType('SigmoidParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SIGMOIDPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SigmoidParameter)
-  ))
+  })
 _sym_db.RegisterMessage(SigmoidParameter)
 
-SliceParameter = _reflection.GeneratedProtocolMessageType('SliceParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SLICEPARAMETER,
-  __module__ = 'caffe_pb2'
+SliceParameter = _reflection.GeneratedProtocolMessageType('SliceParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SLICEPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SliceParameter)
-  ))
+  })
 _sym_db.RegisterMessage(SliceParameter)
 
-SoftmaxParameter = _reflection.GeneratedProtocolMessageType('SoftmaxParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SOFTMAXPARAMETER,
-  __module__ = 'caffe_pb2'
+SoftmaxParameter = _reflection.GeneratedProtocolMessageType('SoftmaxParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SOFTMAXPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SoftmaxParameter)
-  ))
+  })
 _sym_db.RegisterMessage(SoftmaxParameter)
 
-TanHParameter = _reflection.GeneratedProtocolMessageType('TanHParameter', (_message.Message,), dict(
-  DESCRIPTOR = _TANHPARAMETER,
-  __module__ = 'caffe_pb2'
+TanHParameter = _reflection.GeneratedProtocolMessageType('TanHParameter', (_message.Message,), {
+  'DESCRIPTOR' : _TANHPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.TanHParameter)
-  ))
+  })
 _sym_db.RegisterMessage(TanHParameter)
 
-TileParameter = _reflection.GeneratedProtocolMessageType('TileParameter', (_message.Message,), dict(
-  DESCRIPTOR = _TILEPARAMETER,
-  __module__ = 'caffe_pb2'
+TileParameter = _reflection.GeneratedProtocolMessageType('TileParameter', (_message.Message,), {
+  'DESCRIPTOR' : _TILEPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.TileParameter)
-  ))
+  })
 _sym_db.RegisterMessage(TileParameter)
 
-ThresholdParameter = _reflection.GeneratedProtocolMessageType('ThresholdParameter', (_message.Message,), dict(
-  DESCRIPTOR = _THRESHOLDPARAMETER,
-  __module__ = 'caffe_pb2'
+ThresholdParameter = _reflection.GeneratedProtocolMessageType('ThresholdParameter', (_message.Message,), {
+  'DESCRIPTOR' : _THRESHOLDPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.ThresholdParameter)
-  ))
+  })
 _sym_db.RegisterMessage(ThresholdParameter)
 
-WindowDataParameter = _reflection.GeneratedProtocolMessageType('WindowDataParameter', (_message.Message,), dict(
-  DESCRIPTOR = _WINDOWDATAPARAMETER,
-  __module__ = 'caffe_pb2'
+WindowDataParameter = _reflection.GeneratedProtocolMessageType('WindowDataParameter', (_message.Message,), {
+  'DESCRIPTOR' : _WINDOWDATAPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.WindowDataParameter)
-  ))
+  })
 _sym_db.RegisterMessage(WindowDataParameter)
 
-SPPParameter = _reflection.GeneratedProtocolMessageType('SPPParameter', (_message.Message,), dict(
-  DESCRIPTOR = _SPPPARAMETER,
-  __module__ = 'caffe_pb2'
+SPPParameter = _reflection.GeneratedProtocolMessageType('SPPParameter', (_message.Message,), {
+  'DESCRIPTOR' : _SPPPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.SPPParameter)
-  ))
+  })
 _sym_db.RegisterMessage(SPPParameter)
 
-V1LayerParameter = _reflection.GeneratedProtocolMessageType('V1LayerParameter', (_message.Message,), dict(
-  DESCRIPTOR = _V1LAYERPARAMETER,
-  __module__ = 'caffe_pb2'
+V1LayerParameter = _reflection.GeneratedProtocolMessageType('V1LayerParameter', (_message.Message,), {
+  'DESCRIPTOR' : _V1LAYERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.V1LayerParameter)
-  ))
+  })
 _sym_db.RegisterMessage(V1LayerParameter)
 
-V0LayerParameter = _reflection.GeneratedProtocolMessageType('V0LayerParameter', (_message.Message,), dict(
-  DESCRIPTOR = _V0LAYERPARAMETER,
-  __module__ = 'caffe_pb2'
+V0LayerParameter = _reflection.GeneratedProtocolMessageType('V0LayerParameter', (_message.Message,), {
+  'DESCRIPTOR' : _V0LAYERPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.V0LayerParameter)
-  ))
+  })
 _sym_db.RegisterMessage(V0LayerParameter)
 
-PReLUParameter = _reflection.GeneratedProtocolMessageType('PReLUParameter', (_message.Message,), dict(
-  DESCRIPTOR = _PRELUPARAMETER,
-  __module__ = 'caffe_pb2'
+PReLUParameter = _reflection.GeneratedProtocolMessageType('PReLUParameter', (_message.Message,), {
+  'DESCRIPTOR' : _PRELUPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.PReLUParameter)
-  ))
+  })
 _sym_db.RegisterMessage(PReLUParameter)
 
-AffinityParameter = _reflection.GeneratedProtocolMessageType('AffinityParameter', (_message.Message,), dict(
-  DESCRIPTOR = _AFFINITYPARAMETER,
-  __module__ = 'caffe_pb2'
+AffinityParameter = _reflection.GeneratedProtocolMessageType('AffinityParameter', (_message.Message,), {
+  'DESCRIPTOR' : _AFFINITYPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.AffinityParameter)
-  ))
+  })
 _sym_db.RegisterMessage(AffinityParameter)
 
-MergeCropParameter = _reflection.GeneratedProtocolMessageType('MergeCropParameter', (_message.Message,), dict(
-  DESCRIPTOR = _MERGECROPPARAMETER,
-  __module__ = 'caffe_pb2'
+MergeCropParameter = _reflection.GeneratedProtocolMessageType('MergeCropParameter', (_message.Message,), {
+  'DESCRIPTOR' : _MERGECROPPARAMETER,
+  '__module__' : 'caffe_pb2'
   # @@protoc_insertion_point(class_scope:caffe.MergeCropParameter)
-  ))
+  })
 _sym_db.RegisterMessage(MergeCropParameter)
 
 
